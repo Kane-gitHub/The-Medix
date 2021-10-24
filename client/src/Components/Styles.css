@@ -1,0 +1,183 @@
+/* USER  */
+#user-logout {
+    float: right;
+    margin-top: -163px;
+ }
+ #ap-title {
+     font-weight: 900;
+     font-size: 30px;
+ }
+ #ap-body {
+     font-weight: 900;
+ }
+ #ap-card {
+     margin-left: 20px;
+ }
+ @media (max-width: 598px) {
+    #user-logout {
+        float: right;
+        margin-right: -20px;
+       
+     }
+}
+@media (max-width: 400px) {
+    #user-logout {
+        float: right;
+        margin-right: -20px;
+        margin-top: -190px;
+       
+     }
+}
+
+/* ADMIN */
+#admin-logout {
+   float: right;
+   margin-top: -163px;
+}
+#admin-div {
+    padding-left: 20px;
+}
+#patient-list {
+    font-weight: 900;
+    font-size: 50px;
+}
+.headings {
+    font-weight: 900;
+}
+span {
+    font-weight: 900;
+    font-size: 20px;
+}
+.li-patient {
+    font-size: 20px;
+    list-style-type: none;
+}
+#patient-title {
+    font-weight: 900;
+    font-size: 30px;
+}
+#delete-boton {
+    font-weight: 900;
+}
+
+@media (max-width: 598px) {
+    #admin-logout {
+        float: right;
+        margin-right: -20px;
+       
+     }
+}
+@media (max-width: 400px) {
+    #admin-logout {
+        float: right;
+        margin-right: -20px;
+        margin-top: -190px;
+       
+     }
+}
+
+/* SIGN UP */
+#sign-up-div {
+    margin-top: 120px;
+    padding-bottom: 25px;
+}
+.sign-up-item {
+    margin-top: 20px;
+    font-weight: 900;
+    font-size: 20px;
+}
+#sign-page-boton {
+    font-weight: 900;
+    font-size: 30px;
+    margin-top: 25px;
+}
+
+/* LOGIN */
+@media (max-width: 598px) {
+    #login-div {
+        width:100%;
+    } 
+    .inputt {
+        width: 300px;
+    }   
+}
+@media (min-width: 1000px) {
+    .inputt {
+        margin-left: 10px;
+    } 
+    #pass-input {
+        margin-left:15px ;
+    }  
+}
+#login-div {
+    margin-top: 120px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+   
+}
+#password-login, #username-login {
+    font-size: 40px;
+    font-weight: 900;
+    padding-right: 10px;
+}
+
+#login-button-login {
+    margin-top: 20px;
+    font-weight: 900;
+    font-size: 35px;
+}
+#error-login {
+    margin-top: 50px;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+/* APP.JS */
+#main-container {
+    background-color: hsl(240, 19%, 85%);
+    border-radius: 20px;
+}
+@media (max-width: 598px) {
+    #main-container {
+        background-color: black;
+        color: white;
+        width: 100%;
+        
+       
+    }
+}
+
+/* LOGO */
+
+#logo {
+    width: 100px;
+    float: left;
+}
+
+#logo-div {
+    padding-top: 20px;
+}
+
+#logo-title {
+    position: relative;
+    top: 40px;
+    left: 25px;
+    font-weight: 900;
+    
+}
+
+/* LANDING*/
+
+#landing-botons-div {
+    margin-top: 120px;
+    padding-bottom: 20px;
+}
+
+#login-button {
+    font-weight: 900;
+}
+
+#sign-up-boton {
+    margin-top: 20px;
+    font-weight: 900;
+}

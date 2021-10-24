@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div>
+  <div>
+    <div
+      id="logo-div"
+    >
+      <img
+        className="rounded-circle"
+        id="logo"
+        src="logo.png"
+      />
+      <h3
+        id="logo-title"
+      >
+        THE MEDIX
+      </h3>
+    </div>
+  </div>
+  <div
+    id="landing-botons-div"
+  >
+    <a
+      href="/login"
+    >
+      <button
+        className="btn btn-success"
+        disabled={false}
+        id="login-button"
+        type="button"
+      >
+        LOGIN
+      </button>
+    </a>
+    <br />
+    <a
+      href="/signup"
+    >
+      <button
+        className="btn btn-primary"
+        disabled={false}
+        id="sign-up-boton"
+        type="button"
+      >
+        SIGN UP
+      </button>
+    </a>
+  </div>
+</div>
+`;
